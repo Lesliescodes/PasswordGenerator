@@ -1,3 +1,9 @@
+Password Generator 
+simple website that is fully capable to generate a random password at the click of a button. 
+
+
+
+
 # PasswordGenerator
 
 
