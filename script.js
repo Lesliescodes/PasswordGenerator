@@ -13,14 +13,14 @@ generateBtn.addEventListener("click", displayPassword);
 //start password generator by user pressing button
 function passwordMachineGoBrrr() {
   //prompt What length would you like your new password to be? You can pick any length between 8 and 128 characters!
-  var userInputLength = parseInt(prompt("Password must be 8 and 128 characters!"));
+  var userInputLength = parseInt(prompt("Use 8 or more characters with a mix of letters, numbers & symbols"));
   //this is for no response
   if (!userInputLength) {
     alert("Well this is awkward... Pick something! ");
     return "";
     //response is not between 8-128 characters 
   } else if (userInputLength < 8 || userInputLength > 128) {
-    userInputLength = alert("Only 8 to 128 will generate a password! ");
+    userInputLength = alert("Use 8 or more characters to generate a password!");
     return "";
   } else {
     var confirmLowerCase = confirm("Include lower case letters? e.g. abcde");
